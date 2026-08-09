@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <mask id="linkedin-mask">
+    <rect width="30" height="30" fill="black"/>
+    <circle cx="15" cy="15" r="15" fill="white"/>
+    <path d="M9.35 11.45H12.55V21H9.35V11.45ZM10.95 10.15C9.92 10.15 9.25 9.48 9.25 8.6C9.25 7.72 9.92 7.05 10.95 7.05C11.98 7.05 12.65 7.72 12.65 8.6C12.65 9.48 11.98 10.15 10.95 10.15ZM14.15 11.45H17.22V12.75H17.27C17.7 11.98 18.75 11.05 20.42 11.05C23.68 11.05 24.28 13.2 24.28 16V21H21.08V16.55C21.08 15.49 21.06 14.12 19.6 14.12C18.12 14.12 17.89 15.28 17.89 16.5V21H14.69V11.45H14.15Z" fill="black"/>
+  </mask>
+
+  <rect width="30" height="30" fill="white" mask="url(#linkedin-mask)"/>
+</svg>

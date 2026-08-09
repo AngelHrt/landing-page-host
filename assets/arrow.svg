@@ -1,0 +1,18 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="36"
+    height="36"
+    viewBox="0 0 24 24"
+>
+    <circle
+        cx="12"
+        cy="12"
+        r="10"
+        fill="#000000"
+    />
+
+    <path
+        d="M15 8H9a1 1 0 0 0 0 2h3.586l-4.293 4.293a1 1 0 0 0 1.414 1.414L14 11.414V15a1 1 0 0 0 2 0V9a1 1 0 0 0-1-1z"
+        fill="#B9FF67"
+    />
+</svg>

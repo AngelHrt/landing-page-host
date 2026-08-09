@@ -262,6 +262,109 @@ button {
     padding: 80px 0;
 }
 
+.faq__container{
+    display: grid;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.faq__item{
+    background-color: var(--gray-color);
+    padding: 1.5rem;
+    border-radius: 30px;
+    border: 1px solid black;
+    border-bottom-width: 4px;
+
+    --icon-question-url: url("./assets/plus-circle.svg")
+}
+
+.faq__item[open]{    
+    background-color: var(--color-primario);
+    
+    --icon-question-url: url("./assets/minus-circle.svg")
+}
+
+.faq__question{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq__question::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: var(--icon-question-url);
+    margin-left: auto;
+}
+
+.faq__title{
+    font-size: 1.2rem;
+    width: 60%;
+}
+
+.faq__answer{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #000;
+
+}
+
+/**Conatct**/
+
+.contact{
+    padding: 80px 0;
+}
+.contact__content{
+    margin-top: 3rem;
+
+    background-color: var(--gray-color);
+    border-radius: 10px;
+    padding: 2rem 1.5rem;
+
+    display: grid;
+    gap: 2rem;
+}
+
+.contact__figure{
+    display: none;
+}
+
+.contact__img{
+    width: 100%;
+}
+
+.contact__form{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.contact__label{
+    display: grid;
+    gap: .3rem;
+}
+
+.contact__input,
+.contact__area{
+    padding: 1rem 1.5rem;
+    border-radius:10px;
+    border: 1px solid black;
+}
+
+.contact__area{
+    width: 100%;
+    height: 120px;
+    resize: none;
+}
+
+.contact__submit{
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
 @media(width >= 768px){
     /**hero**/
     .hero__main{
@@ -309,8 +412,24 @@ button {
     .cta__figure{
         display: block;
     }
+    
+    /**contact**/
+    .contact__content{
+        grid-template-columns: 50% 40%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .contact__figure{
+        display: block;
+    }
+
+
 
 }
+
+
+
 
 @media (width >= 900px){
     /**hero**/

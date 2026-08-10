@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Hostinger</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,11 +15,8 @@
 <body>
 
     <div class="container">
-
         <header class="hero">
-
             <nav class="nav">
-
                 <a href="./" class="nav__logo-link">
                     <img src="./assets/logo.svg" class="nav__logo">
                 </a>
@@ -33,16 +30,16 @@
                         <a href="#" class="nav__link">Sobre Nosotros</a>
                     </li>
                     <li class="nav__element">
-                        <a href="#" class="nav__link">Servicios</a>
+                        <a href="#servicios" class="nav__link">Servicios</a>
                     </li>
                     <li class="nav__element">
-                        <a href="#" class="nav__link">FAQ</a>
+                        <a href="#faq" class="nav__link">FAQ</a>
                     </li>
                     <li class="nav__element">
                         <a href="#" class="nav__link">Newsletter</a>
                     </li>
                     <li class="nav__element">
-                        <a href="#" class="nav__link nav__link--cta">Contacto</a>
+                        <a href="#cta" class="nav__link nav__link--cta">Contacto</a>
                     </li>
                 </ul>
 
@@ -62,8 +59,8 @@
             </section>
         </header>
 
-        <main class="main">
-            <section class="services">
+        <main class="main" >
+            <section id="servicios" class="services">
                 <h2 class="title title__highlight">Services</h2>
 
                 <p class="paragraph">
@@ -168,7 +165,7 @@
                 </article>
             </section>
 
-            <section class="faq">
+            <section id="faq" class="faq">
                 <h2 class="title title__highlight">Our Working Process</h2>
                 <section class="faq__container">
                     <details class="faq__item">
@@ -207,7 +204,7 @@
 
             </section>
 
-            <section class="contact">
+            <section id="cta" class="contact">
                 <h2 class="title title__highlight">Contact us
                 </h2>
                 <p class="paragraph">Contacta con nosotros, para que tengas tu presencia en internet.</p>
@@ -216,17 +213,17 @@
                     <form class="contact__form">
                         <label class="contact__label">
                             Nombre
-                            <input type="text" placeholder="Nombre" class="contact__input">
+                            <input type="text" placeholder="Jane Smith" class="contact__input">
                         </label>
 
                         <label class="contact__label">
                             Email
-                            <input type="email" placeholder="hola@gmail.com" class="contact__input">
+                            <input type="email" placeholder="jane@gmail.com" class="contact__input">
                         </label>
 
                         <label class="contact__label">
                             Mensaje
-                            <textarea class="contact__area" placeholder="Mensaje..."></textarea>
+                            <textarea class="contact__area" placeholder="Type your message..."></textarea>
                         </label>
 
                         <input type="submit" value="Envia mensaje" class="contact__submit">
@@ -248,9 +245,9 @@
                 </a>
                 <nav class="footer__links">
                     <a href="#" class="footer__link">Sobre Nostros</a>
-                    <a href="#" class="footer__link">Servicios</a>
-                    <a href="#" class="footer__link">FAQ</a>
-                    <a href="#" class="footer__link">Contacto</a>
+                    <a href="#servicios" class="footer__link">Servicios</a>
+                    <a href="#faq" class="footer__link">FAQ</a>
+                    <a href="#cta" class="footer__link">Contacto</a>
                 </nav>
 
                 <article class="footer__contact">
